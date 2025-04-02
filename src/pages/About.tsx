@@ -23,7 +23,7 @@ const About = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        About ANovahacks
+        About ANova Hacks
       </motion.h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -37,7 +37,7 @@ const About = () => {
         >
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-400">
-            ANovahacks is Berkeley ANova's premier hackathon designed specifically for first-time high school hackers. 
+            ANova Hacks is Berkeley ANova's premier hackathon designed specifically for first-time high school hackers. 
             Our mission is to introduce students to the exciting world of technology and innovation while fostering 
             creativity, collaboration, and problem-solving skills.
           </p>
@@ -51,7 +51,7 @@ const About = () => {
           custom={1}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-semibold mb-4">Why ANovahacks?</h2>
+          <h2 className="text-2xl font-semibold mb-4">Why ANova Hacks?</h2>
           <p className="text-gray-400">
             We believe that every student deserves the opportunity to explore technology in a supportive environment. 
             Our hackathon provides mentorship, workshops, and resources to help you bring your ideas to life, 
