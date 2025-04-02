@@ -9,10 +9,12 @@ import Resources from './pages/Resources';
 import Projects from './pages/Projects';
 import Mentors from './pages/Mentors';
 import Stars from './components/Stars';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
     <BrowserRouter>
+    <Analytics />
       <div className="min-h-screen relative overflow-hidden">
         <Stars />
         <Navbar />
