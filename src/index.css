@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes twinkle {
+  0% { opacity: 0; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 0; transform: scale(1); }
+}
+
+.star {
+  position: absolute;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+
+.lucide {
+  color: #9DD4DB;
+}
+
+@layer base {
+  body {
+    @apply bg-[#000c1f] text-white min-h-screen;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 rounded-lg hover:bg-white/10 transition-colors;
+  }
+  
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 py-16;
+  }
+
+  .card {
+    @apply bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-white/20;
+  }
+
+  .primary-button {
+    @apply bg-gradient-to-r from-[#228A8C] to-[#9DD4DB] hover:from-[#9DD4DB] hover:to-[#9DD4DB] text-white px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#9DD4DB] to-[#228A8C];
+  }
+}
