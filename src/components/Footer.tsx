@@ -13,7 +13,8 @@ const Footer = () => {
               <span className="text-lg font-bold gradient-text">ANovahacks</span>
             </div>
             <p className="text-blue-100/80 text-sm">
-              Berkeley ANova's premier hackathon for first-time high school hackers.
+            ANova is a student group acting independently of the University of California. 
+            We take full responsibility for our organization, our programs, and this website.
             </p>
           </div>
 
@@ -97,15 +98,9 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-blue-100/60 text-sm">
-            © {new Date().getFullYear()} ANovahacks. All rights reserved.
+            © {new Date().getFullYear()} by Berkeley ANova with &lt;3
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-blue-100/60 hover:text-blue-100 text-sm">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-blue-100/60 hover:text-blue-100 text-sm">
-              Terms of Service
-            </a>
           </div>
         </div>
       </div>
