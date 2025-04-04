@@ -10,7 +10,6 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="parallax__layer parallax__layer--base">
         <div className="min-h-screen">
           <div className="pt-32 pb-16">
             <div className="max-w-7xl mx-auto px-4">
@@ -97,7 +96,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
