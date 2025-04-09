@@ -9,8 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Rocket className="w-6 h-6 text-blue-400" />
-              <span className="text-lg font-bold gradient-text">ANovahacks</span>
+              <img
+              src='/anova_asterisk_text_light.png'
+              alt='anova-logo'
+              className='w-auto'
+              />
             </div>
             <p className="text-blue-100/80 text-sm">
             ANova is a student group acting independently of the University of California. 
