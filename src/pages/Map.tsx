@@ -6,9 +6,9 @@ const Map = () => {
   const locations = [
     { name: "General Workspace", description: "Opening/closing ceremonies and main hacking space" },
     { name: "Ivy", description: "Female-identifying sleeping room" },
-    { name: "Rose", description: "Male-identifying sleeping room" },
+    { name: "Hyacinth", description: "Male-identifying sleeping room" },
     { name: "Dahlia", description: "Gender non-conforming sleeping room" },
-    { name: "Hyacinth", description: "Various workshops and learning sessions" }
+    { name: "Rose", description: "Various workshops and learning sessions" }
   ];
 
   const cardVariants = {
