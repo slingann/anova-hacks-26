@@ -6,9 +6,9 @@ const Map = () => {
   const locations = [
     { name: "General Workspace", description: "Opening/closing ceremonies and main hacking space" },
     { name: "Ivy", description: "Female-identifying sleeping room" },
-    { name: "Hyacinth", description: "Various workshops and learning sessions" },
     { name: "Rose", description: "Male-identifying sleeping room" },
-    { name: "Dahlia", description: "Storage room" },
+    { name: "Dahlia", description: "Gender non-conforming sleeping room" },
+    { name: "Hyacinth", description: "Various workshops and learning sessions" }
   ];
 
   const cardVariants = {
@@ -53,7 +53,7 @@ const Map = () => {
           <p className="text-gray-400">
           ANovahacks 2025 takes place at Trellis Coworking & Events, an inspiring space for innovation and collaboration. 
           Located at the heart of the city, Trellis offers a dynamic environment designed to foster creativity and networking among 
-          hackers, creators, and tech enthusiasts. Whether you’re working on your next big idea or collaborating with like-minded individuals, 
+          hackers, creators, and tech enthusiasts. Whether you're working on your next big idea or collaborating with like-minded individuals, 
           Trellis provides the perfect setting for making those ideas come to life.
           </p>
         </motion.div>

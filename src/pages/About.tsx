@@ -100,7 +100,7 @@ const About = () => {
         >
           <Lightbulb className="w-12 h-12 mx-auto mb-4 text-blue-400" />
           <h3 className="text-xl font-semibold mb-2">Innovation</h3>
-          <p className="text-gray-400">Resources and materials to spark creativity</p>
+          <p className="text-gray-400">Resources and materials to create new projects</p>
         </motion.div>
       </div>
     </div>
