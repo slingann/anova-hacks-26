@@ -23,7 +23,7 @@ const Home = () => {
                   <h1 className="text-5xl md:text-7xl font-bold mb-4 gradient-text">ANova Hacks 2025</h1>
                   <p className="text-xl md:text-2xl text-white-200 mb-8">Berkeley ANova's annual hackathon for beginner hackers</p>
                   <button className="primary-button">
-                    Register Now
+                    Submit Project
                   </button>
                 </motion.div>
                 <motion.div
