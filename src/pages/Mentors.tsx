@@ -224,9 +224,32 @@ const Mentors = () => {
                 <h3 className="text-xl font-semibold mb-1">
                   {mentor.firstName} {mentor.lastName}
                 </h3>
-                <p className="text-blue-200 mb-2">
+                <p className="text-white-200 mb-2">
                   {mentor.year} Year • {mentor.major}
                 </p>
+                <div className="space-y-3">
+              <div>
+                <h4 className="text-sm font-semibold text-white-300 mb-1">Languages</h4>
+                <div className="flex flex-wrap gap-2">
+                  {mentor.codingLanguages.map(lang => (
+                    <span key={lang} className="px-2 py-1 bg-white/5 rounded-full text-xs">
+                      {lang}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              
+              <div>
+                <h4 className="text-sm font-semibold text-white-300 mb-1">Projects</h4>
+                <div className="flex flex-wrap gap-2">
+                  {mentor.projects.map(project => (
+                    <span key={project} className="px-2 py-1 bg-white/5 rounded-full text-xs">
+                      {project}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
               </motion.div>
             )
           })}

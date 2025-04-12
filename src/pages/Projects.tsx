@@ -29,31 +29,31 @@ const Projects = () => {
       name: "Best Website",
       icon: <Globe className="w-8 h-8" />,
       description: "Create an innovative and user-friendly website",
-      prize: "$"
+      //prize: ""
     },
     {
       name: "Best App",
       icon: <BookOpen className="w-8 h-8" />,
       description: "Develop a mobile or desktop application",
-      prize: "$"
+      //prize: "$"
     },
     {
       name: "Best Figma",
       icon: <Palette className="w-8 h-8" />,
       description: "Design an impressive UI/UX project",
-      prize: "$"
+      //prize: "$"
     },
     {
       name: "Best Game",
       icon: <Gamepad className="w-8 h-8" />,
       description: "Build an engaging and creative game",
-      prize: "$"
+      //prize: "$"
     },
     {
       name: "Best Arduino",
       icon: <CircuitBoard className="w-8 h-8" />,
       description: "Craft a smart and functional Arduino project",
-      prize: "$"
+      //prize: "$"
     }
   ];
 
@@ -131,10 +131,10 @@ const Projects = () => {
             <div className="text-blue-400 mb-4">{challenge.icon}</div>
             <h3 className="text-lg font-semibold mb-2">{challenge.name}</h3>
             <p className="text-gray-400 text-sm mb-4">{challenge.description}</p>
-            <div className="text-[#9DD4DB] font-semibold">{challenge.prize}</div>
           </motion.div>
         ))}
       </div>
+      
 
       <motion.div
         className="card mt-12"
@@ -144,6 +144,7 @@ const Projects = () => {
         custom={7}
         viewport={{ once: true }}
       >
+        
         <h2 className="text-2xl font-semibold mb-4">Judging Criteria</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div>

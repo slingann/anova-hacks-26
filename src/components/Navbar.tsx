@@ -61,7 +61,7 @@ const Navbar = () => {
               <Link
                 to="/about"
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === '/about' ? 'bg-blue-500/20 text-blue-200' : 'text-blue-100 hover:bg-blue-500/10'
+                  location.pathname === '/about' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100 hover:bg-blue-500/10'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -70,7 +70,7 @@ const Navbar = () => {
               <Link
                 to="/schedule"
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === '/schedule' ? 'bg-blue-500/20 text-blue-200' : 'text-blue-100 hover:bg-blue-500/10'
+                  location.pathname === '/schedule' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100 hover:bg-blue-500/10'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -79,7 +79,7 @@ const Navbar = () => {
               <Link
                 to="/map"
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === '/map' ? 'bg-blue-500/20 text-blue-200' : 'text-blue-100 hover:bg-blue-500/10'
+                  location.pathname === '/map' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100 hover:bg-blue-500/10'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -88,7 +88,7 @@ const Navbar = () => {
               <Link
                 to="/resources"
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === '/resources' ? 'bg-blue-500/20 text-blue-200' : 'text-blue-100 hover:bg-blue-500/10'
+                  location.pathname === '/resources' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100 hover:bg-blue-500/10'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -97,7 +97,7 @@ const Navbar = () => {
               <Link
                 to="/projects"
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === '/projects' ? 'bg-blue-500/20 text-blue-200' : 'text-blue-100 hover:bg-blue-500/10'
+                  location.pathname === '/projects' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100 hover:bg-blue-500/10'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -106,7 +106,7 @@ const Navbar = () => {
               <Link
                 to="/mentors"
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === '/mentors' ? 'bg-blue-500/20 text-blue-200' : 'text-blue-100 hover:bg-blue-500/10'
+                  location.pathname === '/mentors' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100 hover:bg-blue-500/10'
                 }`}
                 onClick={() => setIsOpen(false)}
               >

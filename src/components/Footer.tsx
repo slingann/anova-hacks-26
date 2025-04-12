@@ -15,32 +15,32 @@ const Footer = () => {
               className='w-auto'
               />
             </div>
-            <p className="text-blue-100/80 text-sm">
+            <p className="text-gray-400 text-sm">
             ANova is a student group acting independently of the University of California. 
             We take full responsibility for our organization, our programs, and this website.
             </p>
           </div>
 
           <div>
-            <h3 className="text-blue-200 font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-white-200 font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/about" className="text-blue-100/80 hover:text-blue-100 text-sm">
+                <Link to="/about" className="text-gray-400 hover:text-white-100 text-sm">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/schedule" className="text-blue-100/80 hover:text-blue-100 text-sm">
+                <Link to="/schedule" className="text-gray-400 hover:text-white-100 text-sm">
                   Schedule
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="text-blue-100/80 hover:text-blue-100 text-sm">
+                <Link to="/projects" className="text-gray-400 hover:text-white-100 text-sm">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="/mentors" className="text-blue-100/80 hover:text-blue-100 text-sm">
+                <Link to="/mentors" className="text-gray-400 hover:text-white-100 text-sm">
                   Mentors
                 </Link>
               </li>
@@ -48,20 +48,20 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-blue-200 font-semibold mb-4">Resources</h3>
+            <h3 className="text-white-200 font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
+                <a href="https://www.berkeleyanova.org" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white-100 text-sm">
+                  Berkeley ANova
+                </a>
               <li>
-                <Link to="/resources" className="text-blue-100/80 hover:text-blue-100 text-sm">
+                <Link to="/resources" className="text-gray-400 hover:text-white-100 text-sm">
                   Learning Materials
                 </Link>
               </li>
               <li>
-                <a href="https://www.berkeleyanova.org" target="_blank" rel="noopener noreferrer" className="text-blue-100/80 hover:text-blue-100 text-sm">
-                  Berkeley ANova
-                </a>
               </li>
               <li>
-                <Link to="/map" className="text-blue-100/80 hover:text-blue-100 text-sm">
+                <Link to="/map" className="text-gray-400 hover:text-white-100 text-sm">
                   Venue Map
                 </Link>
               </li>
@@ -69,38 +69,29 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-blue-200 font-semibold mb-4">Connect</h3>
-            <div className="flex space-x-4">
-              <a
-                href="https://github.com/berkeleyanova"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-100/80 hover:text-blue-100"
-              >
-                
-              </a>
-              <a
-                href="https://instagram.com/berkeleyanova"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-100/80 hover:text-blue-100"
-              >
-               
-              </a>
-              <a
-                href="https://linkedin.com/company/berkeleyanova"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-100/80 hover:text-blue-100"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
+            <h3 className="text-white-200 font-semibold mb-4">Connect</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="https://www.instagram.com/berkeleyanova/?hl=en" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white-100 text-sm">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/BerkeleyANova/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white-100 text-sm">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/berkeleyanova/about/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white-100 text-sm">
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-blue-100/60 text-sm">
+          <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} by Berkeley ANova with &lt;3
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
