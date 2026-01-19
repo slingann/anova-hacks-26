@@ -27,9 +27,9 @@ const Navbar = () => {
             <Link to="/schedule" className={`nav-link ${location.pathname === '/schedule' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100'}`}>
               Schedule
             </Link>
-            <Link to="/map" className={`nav-link ${location.pathname === '/map' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100'}`}>
+            {/* <Link to="/map" className={`nav-link ${location.pathname === '/map' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100'}`}>
               Map
-            </Link>
+            </Link> */}
             <Link to="/projects" className={`nav-link ${location.pathname === '/projects' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100'}`}>
               Project Info
             </Link>
