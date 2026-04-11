@@ -11,7 +11,7 @@ const Home = () => {
   });
 
   useEffect(() => {
-    const deadline = new Date('2025-04-13T12:00:00-07:00').getTime();
+    const deadline = new Date('2026-04-12T12:00:00-07:00').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -91,7 +91,7 @@ const Home = () => {
                 transition={{ duration: 0.8 }}
                 className="text-center md:text-left"
               >
-                <h1 className="text-5xl md:text-7xl font-bold mb-4 gradient-text">ANova Hacks 2025</h1>
+                <h1 className="text-5xl md:text-7xl font-bold mb-4 gradient-text">ANova Hacks 2026</h1>
                 <p className="text-xl md:text-2xl text-white-200 mb-8">
                   Berkeley ANova's annual hackathon for beginner hackers
                 </p>
