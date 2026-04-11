@@ -5,33 +5,32 @@ import { Calendar } from 'lucide-react';
 const Schedule = () => {
   const schedule = [
     {
-      "day": "Saturday, April 12th, 2025",
+      "day": "Saturday, April 11th, 2026",
       "events": [
         { "time": "4:00 PM", "title": "Registration", "description": "Check-in and get ready" },
         { "time": "4:30 PM", "title": "Opening Ceremony", "description": "Kick-off event with welcome speeches" },
         { "time": "5:00 PM", "title": "Team Building", "description": "Find your teammates and connect" },
         { "time": "5:30 PM", "title": "Hacking Starts", "description": "Begin your project" },
-        { "time": "5:30 PM", "title": "Design Workshop", "description": "Learn about innovative design" },
-        { "time": "5:30 PM", "title": "Arduino Workshop", "description": "Explore hardware programming" },
-        { "time": "6:30 PM", "title": "Dinner", "description": "Refuel for the night ahead" },
-        { "time": "7:00 PM", "title": "Web Development Workshop", "description": "Build web applications" },
-        { "time": "8:00 PM", "title": "Python Workshop", "description": "Enhance your Python skills" },
-        { "time": "9:00 PM", "title": "Data Science Workshop", "description": "Analyze and visualize data" },
-        { "time": "10:00 PM", "title": "Machine Learning Workshop", "description": "Dive into ML concepts" },
-        { "time": "11:00 PM", "title": "App Development Workshop", "description": "Create mobile apps" },
-        { "time": "12:00 AM", "title": "Late Night Festivities", "description": "Unwind and have fun" }
+        { "time": "5:30 PM", "title": "Ideation Workshop", "description": "Gain advice on how to start your project" },
+        { "time": "6:30 PM", "title": "Dinner", "description": "Pizza and salad to refuel for the night ahead" },
+        { "time": "7:00 PM", "title": "Design Workshop", "description": "Learn about human-centered design with Berkeley Innovation" },
+        { "time": "8:00 PM", "title": "Web Development Workshop", "description": "Learn to build web applications with ANova and Lovable" },
+        { "time": "9:00 PM", "title": "Python Workshop", "description": "Learn about Python with Berkeley Codebase" },
+        { "time": "10:00 PM", "title": "Data Science Workshop", "description": "Learn to analyze and visualize data with Big Data at Berkeley" },
+        { "time": "11:00 PM", "title": "Machine Learning Workshop", "description": "Dive into ML concepts with Machine Learning at Berkeley" },
+        { "time": "12:00 AM", "title": "Late Night Festivities", "description": "Unwind and have fun with snacks and games" }
       ]
     },
     {
-      "day": "Sunday, April 13th, 2025",
+      "day": "Sunday, April 12th, 2026",
       "events": [
-        { "time": "8:00 AM", "title": "Breakfast", "description": "Start your second day fresh" },
-        { "time": "9:00 AM", "title": "College Application and Prep", "description": "Guidance for college-bound students" },
-        { "time": "12:00 PM", "title": "Hacking Ends", "description": "Final project submission" },
-        { "time": "12:00 PM", "title": "Lunch", "description": "Enjoy a meal before presentations" },
-        { "time": "12:30 PM", "title": "Presentations", "description": "Showcase your projects" },
-        { "time": "2:00 PM", "title": "URM Panel", "description": "Discussion on underrepresented minorities in tech" },
-        { "time": "2:30 PM", "title": "Closing Ceremony", "description": "Awards and wrap-up" },
+        { "time": "8:00 AM", "title": "Breakfast", "description": "Croissants, muffins, and fruit to prep for the day ahead" },
+        { "time": "11:00 AM", "title": "Hacking Ends", "description": "Submit your final projects" },
+        { "time": "11:00 PM", "title": "College Prep/Professional Development Workshop", "description": "Guidance for college apps, networking, resumes, etc." },
+        { "time": "12:00 PM", "title": "Lunch", "description": "Sandwiches after a morning of hacking" },
+        { "time": "12:30 PM", "title": "URM Panel", "description": "Discussion with underrepresented minorities in tech" },
+        { "time": "1:15 PM", "title": "Presentations", "description": "Showcase your projects to other hackers and mentors" },
+        { "time": "2:30 PM", "title": "Closing Ceremony", "description": "Awards, wrap-up, and clean up" },
         { "time": "4:00 PM", "title": "Farewell", "description": "See you next year!" }
       ]
     }
