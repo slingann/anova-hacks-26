@@ -51,7 +51,7 @@ const Map = () => {
           />
           <h2 className="text-2xl font-semibold mb-2">Trellis Coworking & Events</h2>
           <p className="text-gray-400">
-          ANovahacks 2025 takes place at Trellis Coworking & Events, an inspiring space for innovation and collaboration. 
+          ANovahacks 2026 takes place at Trellis Coworking & Events, an inspiring space for innovation and collaboration. 
           Located at the heart of the city, Trellis offers a dynamic environment designed to foster creativity and networking among 
           hackers, creators, and tech enthusiasts. Whether you're working on your next big idea or collaborating with like-minded individuals, 
           Trellis provides the perfect setting for making those ideas come to life.
