@@ -177,7 +177,7 @@ const Resources = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <motion.a
-            href="https://https://anova-hacks-26-i.vercel.app/resources"
+            href="https://anova-hacks-26-i.vercel.app/resources"
             target="_blank" 
             rel="noopener noreferrer"
             className="block p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
