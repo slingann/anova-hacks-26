@@ -46,7 +46,7 @@ const Mentors = () => {
               major: mentor["Major"] || "",
               codingLanguages: mentor["Coding languages"] ? mentor["Coding languages"].split(", ") : [],
               projects: mentor["Projects/Concepts"] ? mentor["Projects/Concepts"].split(", ") : [],
-              picture: mentor["Picture of yourself"] || "",
+              picture: Null,
             }))
 
           setMentorsData(formattedData)
