@@ -72,7 +72,7 @@ const Mentors = () => {
       return ""
     }
 
-    return `/mentor-pics/${mentor.picture}`
+    return `/mentorpics2/${mentor.picture}`
   }
 
   const allLanguages = useMemo(
