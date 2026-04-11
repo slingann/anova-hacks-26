@@ -44,7 +44,7 @@ const Mentors = () => {
               lastName: mentor["Last Name"] || "",
               year: mentor["Year"] || "",
               major: mentor["Major"] || "",
-              codingLanguages: mentor["Coding languages"] ? mentor["Coding languages"].split(", ") : [],
+              codingLanguages: mentor["Coding Languages"] ? mentor["Coding Languages"].split(", ") : [],
               projects: mentor["Projects/Concepts"] ? mentor["Projects/Concepts"].split(", ") : [],
               picture: mentor["Picture of you"] || "",
             }))
