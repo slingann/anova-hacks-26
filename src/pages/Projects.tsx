@@ -33,19 +33,19 @@ const Projects = () => {
     },
     {
       name: "Best Design",
-      icon: <BookOpen className="w-8 h-8" />,
+      icon: <Palette className="w-8 h-8" />,
       description: "Show off your creativity and design skills",
       //prize: "$"
     },
     {
       name: "Silliest/Funniest",
-      icon: <Palette className="w-8 h-8" />,
+      icon: <Gamepad className="w-8 h-8" />,
       description: "Create a project that makes us laugh",
       //prize: "$"
     },
     {
       name: "Most Informative",
-      icon: <Gamepad className="w-8 h-8" />,
+      icon: <BookOpen className="w-8 h-8" />,
       description: "Design a project intended to educate or inform users",
       //prize: "$"
     }
@@ -111,7 +111,7 @@ const Projects = () => {
       >
         Prize Tracks
       </motion.h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {challenges.map((challenge, index) => (
           <motion.div
             key={challenge.name}
