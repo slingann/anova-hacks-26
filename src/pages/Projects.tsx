@@ -29,25 +29,25 @@ const Projects = () => {
       name: "Best Website",
       icon: <Globe className="w-8 h-8" />,
       description: "Create an innovative and user-friendly website",
-      //prize: ""
+      prize: "$30 gift card per team member"
     },
     {
       name: "Best Design",
       icon: <Palette className="w-8 h-8" />,
       description: "Show off your creativity and design skills",
-      //prize: "$"
+      prize: "$30 gift card per team member"
     },
     {
       name: "Silliest/Funniest",
       icon: <Gamepad className="w-8 h-8" />,
       description: "Create a project that makes us laugh",
-      //prize: "$"
+      prize: "$30 gift card per team member"
     },
     {
       name: "Most Informative",
       icon: <BookOpen className="w-8 h-8" />,
       description: "Design a project intended to educate or inform users",
-      //prize: "$"
+      prize: "$30 gift card per team member"
     }
   ];
 
@@ -98,6 +98,7 @@ const Projects = () => {
               <div className="text-blue-400 mb-4">{track.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{track.name}</h3>
               <p className="text-gray-400">{track.description}</p>
+              <p className="text-gray-300">{track.prize}</p>
             </div>
           </motion.div>
         ))}
