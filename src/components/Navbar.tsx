@@ -39,6 +39,14 @@ const Navbar = () => {
             <Link to="/mentors" className={`nav-link ${location.pathname === '/mentors' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100'}`}>
               Mentors
             </Link>
+            <a 
+              href="https://discord.gg/hSJDPFtE" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="nav-link text-white-100"
+            >
+              Discord
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
