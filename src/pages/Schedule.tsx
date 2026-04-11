@@ -14,9 +14,9 @@ const Schedule = () => {
         { "time": "5:30 PM", "title": "Ideation Workshop", "description": "Gain advice on how to start your project" },
         { "time": "6:30 PM", "title": "Dinner", "description": "Pizza and salad to refuel for the night ahead" },
         { "time": "7:00 PM", "title": "Design Workshop", "description": "Learn about human-centered design with Berkeley Innovation" },
-        { "time": "8:00 PM", "title": "Web Development Workshop", "description": "Learn to build web applications with ANova and Lovable" },
+        { "time": "8:00 PM", "title": "Data Science Workshop", "description": " Learn to analyze and visualize data with Big Data at Berkeley" },
         { "time": "9:00 PM", "title": "Python Workshop", "description": "Learn about Python with Berkeley Codebase" },
-        { "time": "10:00 PM", "title": "Data Science Workshop", "description": "Learn to analyze and visualize data with Big Data at Berkeley" },
+        { "time": "10:00 PM", "title": "Web Development Workshop", "description": "Learn to build web applications with ANova and Lovable" },
         { "time": "11:00 PM", "title": "Machine Learning Workshop", "description": "Dive into ML concepts with Machine Learning at Berkeley" },
         { "time": "12:00 AM", "title": "Late Night Festivities", "description": "Unwind and have fun with snacks and games" }
       ]
@@ -31,7 +31,7 @@ const Schedule = () => {
         { "time": "12:30 PM", "title": "URM Panel", "description": "Discussion with underrepresented minorities in tech" },
         { "time": "1:15 PM", "title": "Presentations", "description": "Showcase your projects to other hackers and mentors" },
         { "time": "2:30 PM", "title": "Closing Ceremony", "description": "Awards, wrap-up, and clean up" },
-        { "time": "4:00 PM", "title": "Farewell", "description": "See you next year!" }
+        { "time": "3:00 PM", "title": "Farewell", "description": "See you next year!" }
       ]
     }
   ]
