@@ -162,9 +162,16 @@ const Resources = () => {
           </motion.a>
         </div>
       </motion.div>
-    </div>
-
-     <div className="flex items-center mb-4">
+      
+      <motion.div
+        className="card mt-8"
+        variants={cardVariants}
+        initial="hidden"
+        whileInView="visible"
+        custom={8}
+        viewport={{ once: true }}
+      >
+       <div className="flex items-center mb-4">
           <Code className="w-6 h-6 text-blue-400 mr-3" />
           <h2 className="text-2xl font-semibold">Workshop Resources</h2>
         </div>
