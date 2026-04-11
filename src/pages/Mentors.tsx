@@ -44,9 +44,9 @@ const Mentors = () => {
               lastName: mentor["Last Name"] || "",
               year: mentor["Year"] || "",
               major: mentor["Major"] || "",
-              codingLanguages: mentor["Coding Languages (What you are confident in being able to help students with!)"] ? mentor["Coding Languages (What you are confident in being able to help students with!)"].split(", ") : [],
-              projects: mentor["Projects/Concepts (What you are confident in being able to help students with!) "] ? mentor["Projects/Concepts (What you are confident in being able to help students with!) "].split(", ") : [],
-              picture: mentor["Picture of yourself 📸 (Needs to be appropriate, will be public!)"] || "",
+              codingLanguages: mentor["Coding languages"] ? mentor["Coding languages"].split(", ") : [],
+              projects: mentor["Projects/Concepts"] ? mentor["Projects/Concepts"].split(", ") : [],
+              picture: mentor["Picture of yourself"] || "",
             }))
 
           setMentorsData(formattedData)
@@ -62,7 +62,7 @@ const Mentors = () => {
   }, [])
 
   const getImageUrl = (mentor: Mentor): string => {
-    const mentorId = `${mentor.firstName} - ${mentor.lastName}`
+    const mentorId = `${mentor.firstName}-${mentor.lastName}`
 
     if (imageErrors[mentorId]) {
       return ""
@@ -106,7 +106,7 @@ const Mentors = () => {
   }
 
   const InitialsAvatar = ({ mentor }: { mentor: Mentor }) => {
-    const initials = `${mentor.firstName.charAt(0)} ${mentor.lastName.charAt(0)}`
+    const initials = `${mentor.firstName.charAt(0)}${mentor.lastName.charAt(0)}`
     const colorClass = "bg-blue-500"
 
     return (
@@ -194,7 +194,7 @@ const Mentors = () => {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredMentors.map((mentor, index) => {
-            const mentorId = `${mentor.firstName} - ${mentor.lastName}`
+            const mentorId = `${mentor.firstName}-${mentor.lastName}`
             const imageUrl = getImageUrl(mentor)
 
             return (
