@@ -16,7 +16,7 @@ const Navbar = () => {
               alt="ANova Logo"
               className="w-10 h-10"
             />
-            <span className="text-xl font-bold gradient-text">ANova Hacks 2025</span>
+            <span className="text-xl font-bold gradient-text">ANova Hacks 2026</span>
           </Link>
           
           {/* Desktop Navigation */}
