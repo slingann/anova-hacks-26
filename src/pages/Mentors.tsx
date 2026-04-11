@@ -40,13 +40,12 @@ const Mentors = () => {
           const formattedData = results.data
             .filter((mentor: any) => mentor["First Name"] && mentor["Last Name"])
             .map((mentor: any) => ({
-              firstName: mentor["First Name"] || "",
-              lastName: mentor["Last Name"] || "",
+              fullName: mentor["Full Name"] || "",
               year: mentor["Year"] || "",
               major: mentor["Major"] || "",
-              codingLanguages: mentor["Coding languages"] ? mentor["Coding languages"].split(", ") : [],
-              projects: mentor["Projects/Concepts"] ? mentor["Projects/Concepts"].split(", ") : [],
-              picture: mentor["Picture of yourself"] || "",
+              codingLanguages: mentor["Coding Languages (What you are confident in being able to help students with!)"] ? mentor["Coding Languages (What you are confident in being able to help students with!)"].split(", ") : [],
+              projects: mentor["Projects/Concepts (What you are confident in being able to help students with!) "] ? mentor["Projects/Concepts (What you are confident in being able to help students with!) "].split(", ") : [],
+              picture: mentor["Picture of yourself 📸 (Needs to be appropriate, will be public!)"] || "",
             }))
 
           setMentorsData(formattedData)
