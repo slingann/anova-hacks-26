@@ -37,7 +37,7 @@ const Mentors = () => {
 
         if (results.data) {
           const formattedData = results.data
-            .filter((mentor: any) => mentor["First Name"] && mentor["Last Name"])
+            .filter((mentor: any) => mentor["Full Name"])
             .map((mentor: any) => ({
               fullName: mentor["Full Name"] || "",
               year: mentor["Year"] || "",
