@@ -125,7 +125,7 @@ const Projects = () => {
             <div className="text-blue-400 mb-4">{challenge.icon}</div>
             <h3 className="text-lg font-semibold mb-2">{challenge.name}</h3>
             <p className="text-gray-400 text-sm mb-4">{challenge.description}</p>
-            <p className="text-gray-300">{challenge.prize}</p>
+            <p className="text-gray-500">{challenge.prize}</p>
           </motion.div>
         ))}
       </div>
