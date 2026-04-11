@@ -5,8 +5,7 @@ import { motion } from "framer-motion"
 import { Search, Users, Code, Briefcase } from "lucide-react"
 
 interface Mentor {
-  firstName: string
-  lastName: string
+  fullName: string
   year: string
   major: string
   codingLanguages: string[]
@@ -61,7 +60,7 @@ const Mentors = () => {
   }, [])
 
   const getImageUrl = (mentor: Mentor): string => {
-    const mentorId = `${mentor.firstName}-${mentor.lastName}`
+    const mentorId = `${mentor.fullName}`
 
     if (imageErrors[mentorId]) {
       return ""
@@ -85,7 +84,7 @@ const Mentors = () => {
 
   const filteredMentors = useMemo(() => {
     return mentorsData.filter((mentor) => {
-      const searchMatch = `${mentor.firstName} ${mentor.lastName} ${mentor.major}`
+      const searchMatch = `${mentor.fullName} ${mentor.major}`
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
       const languageMatch =
@@ -105,7 +104,7 @@ const Mentors = () => {
   }
 
   const InitialsAvatar = ({ mentor }: { mentor: Mentor }) => {
-    const initials = `${mentor.firstName.charAt(0)}${mentor.lastName.charAt(0)}`
+    const initials = `${mentor.fullName.charAt(0)}`
     const colorClass = "bg-blue-500"
 
     return (
@@ -193,7 +192,7 @@ const Mentors = () => {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredMentors.map((mentor, index) => {
-            const mentorId = `${mentor.firstName}-${mentor.lastName}`
+            const mentorId = `${mentor.fullName}`
             const imageUrl = getImageUrl(mentor)
 
             return (
@@ -212,7 +211,7 @@ const Mentors = () => {
                   {imageUrl && (
                     <img
                       src={imageUrl || "/placeholder.svg"}
-                      alt={`${mentor.firstName} ${mentor.lastName}`}
+                      alt={`${mentor.fullName}`}
                       className="w-full h-80 object-cover rounded-lg relative z-10"
                       onError={() => handleImageError(mentorId)}
                     />
@@ -221,7 +220,7 @@ const Mentors = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg z-20" />
                 </div>
                 <h3 className="text-xl font-semibold mb-1">
-                  {mentor.firstName} {mentor.lastName}
+                  {mentor.fullName}
                 </h3>
                 <p className="text-white-200 mb-2">
                   {mentor.year} Year • {mentor.major}
