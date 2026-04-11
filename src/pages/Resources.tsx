@@ -163,6 +163,29 @@ const Resources = () => {
         </div>
       </motion.div>
     </div>
+
+     <div className="flex items-center mb-4">
+          <Code className="w-6 h-6 text-blue-400 mr-3" />
+          <h2 className="text-2xl font-semibold">Workshop Resources</h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <motion.a
+            href="https://https://anova-hacks-26-i.vercel.app/resources"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            custom={9}
+            viewport={{ once: true }}
+          >
+            <h3 className="font-semibold mb-2">As workshops are hosted throughout the event, we'll add slide deck and demo links for you to reference here!</h3>
+            <p className="text-sm text-gray-400">Check back later for hackathon-specific resources!</p>
+          </motion.a>
+        </div>
+      </motion.div>
+    </div>
   );
 };
 
