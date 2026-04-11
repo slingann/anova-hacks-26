@@ -1,7 +1,7 @@
 First Name,Last Name,Year,Major,Coding Languages,Projects/Concepts,Picture of you
 Amber,Wang,4th,Computer science ,"Python, Java, HTML/CSS",Web Development,IMG_7900 - Amber Wang.jpeg
-Ansel,Flores,2nd,Computer Science,"Python, C/C++","Game Development, Hardware (Arduino, Circuits, EE)",PXL_20250421_000555694.MP - Ansel Joseph Rabang Flores.jpg
-Anthony,Garcia,2nd,EECS,"Python, Java, C/C++, HTML/CSS","Web Development, Hardware (Arduino, Circuits, EE)",IMG_2890 - Anthony Manuel Garcia.jpeg
+Ansel,Flores,2nd,Computer Science,"Python, C/C++","Game Development, Hardware",PXL_20250421_000555694.MP - Ansel Joseph Rabang Flores.jpg
+Anthony,Garcia,2nd,EECS,"Python, Java, C/C++, HTML/CSS","Web Development, Hardware",IMG_2890 - Anthony Manuel Garcia.jpeg
 Arnav,Podichetty,2nd,Data Science,"Python, Java",Data Analysis,IMG_1195 - Arnav Podichetty.jpeg
 Bella,Koosh,2nd,Computer science,"Python, Java, HTML/CSS",Web Development,Screenshot 2026-03-30 at 12.22.51 PM - Bella Koosh.png
 Brian,Abanise,1st,CS + Pre-Nursing,Python,"Web Development, Figma",IMG_3985 - Brian Adeyemi-Chibuikem Abanise.jpeg
@@ -9,15 +9,15 @@ Camille,Edwards,4th,Political science/ Computer Science,"Python, Java, C/C++, HT
 Camilo,Gomez,4th,DS,"Python, Java, HTML/CSS","Web Development, Data Analysis",IMG_8926 - Camilo Gomez Porras.jpeg
 Carlos,Navarro,3rd,Data Science,"Python, Java, HTML/CSS","Web Development, Data Analysis, Figma",IMG_2066 - Carlos Navarro.jpg
 Ciara,Cabrera,2nd,Bioengineering,Python,Data Analysis,Ciara Cabrera - Headshot - Ciara L Cabrera.jpeg
-Ethan,Shohet,3rd,Data Science,"Python, Java, C/C++, HTML/CSS, Arduino","Web Development, Game Development, Data Analysis, Hardware (Arduino, Circuits, EE)",Image-1 - Ethan James Shohet.jpeg
+Ethan,Shohet,3rd,Data Science,"Python, Java, C/C++, HTML/CSS, Arduino","Web Development, Game Development, Data Analysis,  Hardware",Image-1 - Ethan James Shohet.jpeg
 Fernando,Ortega Pinedo,3rd,Data Science,"Python, Java, C/C++, HTML/CSS","Web Development, Game Development, Data Analysis",IMG_8268_Original - Fernando Ortega Pinedo.jpeg
 Gabriel,Torres,1st,Computer Science,Python,None,Images of me - Gabriel Torres.jpg
 Gerardo,Zamora,3rd,Mechanical Engineering ,Python,Web Development,IMG_3940 - Gerardo Daniel Zamora.jpeg
 Helen,Zhu,2nd,Astrophysics,"Python, Java, HTML/CSS","Web Development, Data Analysis",IMG_4394 - Helen Tianqi Zhu.jpeg
-Isabella,Alpert,4th,EECS,"Python, Java, C/C++, HTML/CSS, Javascript, Arduino","Web Development, Game Development, Data Analysis, Figma, Hardware (Arduino, Circuits, EE)",IMG_0872 - Isabella Durante Alpert.png
-Joel,Castro,4th,Computer Science,"Python, Java, C/C++, HTML/CSS, Arduino","Web Development, Game Development, Hardware (Arduino, Circuits, EE)",PXL_20250712_202509806 - Joel Castro.jpg
+Isabella,Alpert,4th,EECS,"Python, Java, C/C++, HTML/CSS, Javascript, Arduino","Web Development, Game Development, Data Analysis, Figma,  Hardware",IMG_0872 - Isabella Durante Alpert.png
+Joel,Castro,4th,Computer Science,"Python, Java, C/C++, HTML/CSS, Arduino","Web Development, Game Development,  Hardware",PXL_20250712_202509806 - Joel Castro.jpg
 Josue,Hernandez,2nd,Computer Science,"Python, Java",Data Analysis,JosueHernandezHeadshot - Josue Uriel Hernandez.png
-Julian,Bergado,2nd,EECS,"Python, Java, C/C++, Arduino","Hardware (Arduino, Circuits, EE), Vibe coding 😭 Honestly I've actually never made code outside of school assignments",Screenshot 2025-10-14 at 12.38.30 PM - Julian Gabaldon Bergado.png
+Julian,Bergado,2nd,EECS,"Python, Java, C/C++, Arduino","Hardware",Screenshot 2025-10-14 at 12.38.30 PM - Julian Gabaldon Bergado.png
 Kandra,Chau,3rd,Statistics,Python,Data Analysis,IMG_9062 - Kandra Chau.jpeg
 Keerath,Pujji,1st,EECS ,"Python, Java",Web Development,IMG_3907 - Keerath Pujji.jpeg
 Kelly,Nguyen,3rd,Cognitive Science,"Python, HTML/CSS","Web Development, Data Analysis, Figma",IMG_1463 - Kelly Nguyen.jpeg
@@ -25,7 +25,7 @@ Kelly,Ha,3rd,Math and Data Science,"Python, Java","Web Development, Data Analysi
 Kevin,Solorio,4th,Eecs,"Python, Java, HTML/CSS, Javascript","Web Development, Figma",IMG_2655 - Kevin Solorio.jpeg
 Maddie,Melendez,1st,Astrophysics ,"Python, Java","Web Development, Data Analysis",IMG_8110 - Madison Alessandra Melendez.jpeg
 Melissa,Qin,1st,Data science ,"Python, Java",Data Analysis,IMG_3288 - Melissa Qin.jpeg
-Miguel,Contreras,2nd,Computer Science,"Python, Java, C/C++, Javascript, Arduino","Web Development, Game Development, Data Analysis, Hardware (Arduino, Circuits, EE)",Contreras_Miguel_Angel_headshot_copy-removebg-preview - Miguel Angel Contreras.jpeg
+Miguel,Contreras,2nd,Computer Science,"Python, Java, C/C++, Javascript, Arduino","Web Development, Game Development, Data Analysis,  Hardware",Contreras_Miguel_Angel_headshot_copy-removebg-preview - Miguel Angel Contreras.jpeg
 Nkechi,Onyejekwe,1st,Computer Science,"Python, HTML/CSS, Javascript","Web Development, Data Analysis",IMG_6139 - Nkechi Onyejekwe.jpeg
 Noor,Pirzada,1st,Computer Science,"Python, Java",Web Development,80606440-1AE4-43A8-AF34-64DC325C6C01_1_201_a - Noor Pirzada.jpeg
 Priya,Kamath,4th,CS + DS,"Python, Java, C/C++","Web Development, Game Development, Data Analysis, Figma",Screenshot 2024-07-17 at 2.25.20 PM - Priya Kamath.png
@@ -34,7 +34,7 @@ Raul Ivan,Quintero,2nd,Data Science ,"Python, Java",Lowkey not sure ,IMG_7114 - 
 Rigo,Torres,1st,Computer Science,Python,Web Development,IMG_1816 - Rigo Torres.jpeg
 Ryan,Tran,2nd,CS,"Python, Java, C/C++, HTML/CSS, Arduino, Lua (Roblox Programming Language)","Web Development, Game Development",DSC_2276 - Ryan Manh Tran.jpg
 Samiksha,Lingan,2nd,Data Science,"Python, Java, HTML/CSS","Web Development, Data Analysis, Figma",
-Samuel,Kabiru,2nd,Mechanical Engineering ,Python,"Data Analysis, Hardware (Arduino, Circuits, EE)",IMG_2946 - Samuel Kabiru.jpeg
+Samuel,Kabiru,2nd,Mechanical Engineering ,Python,"Data Analysis,  Hardware",IMG_2946 - Samuel Kabiru.jpeg
 Sarah,Kim,4th,Data Science + Media Studies,"Python, Java, HTML/CSS","Web Development, Data Analysis, Figma",IMG_0667 - Sarah Kim.jpeg
 Susan,Castillo,4th,Civil Engineering ,"Python, C/C++, HTML/CSS, Arduino",Web Development,IMG_1511 5 - Susan Castillo.heic
 Sydney,Choi,3rd,Data Science + Applied Math,"Python, Java",Data Analysis,Sydney Choi - Square Headshot - Sydney Jiwoo Choi.png
