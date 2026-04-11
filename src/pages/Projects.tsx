@@ -98,7 +98,6 @@ const Projects = () => {
               <div className="text-blue-400 mb-4">{track.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{track.name}</h3>
               <p className="text-gray-400">{track.description}</p>
-              <p className="text-gray-300">{track.prize}</p>
             </div>
           </motion.div>
         ))}
@@ -126,6 +125,7 @@ const Projects = () => {
             <div className="text-blue-400 mb-4">{challenge.icon}</div>
             <h3 className="text-lg font-semibold mb-2">{challenge.name}</h3>
             <p className="text-gray-400 text-sm mb-4">{challenge.description}</p>
+            <p className="text-gray-300">{challenge.prize}</p>
           </motion.div>
         ))}
       </div>
