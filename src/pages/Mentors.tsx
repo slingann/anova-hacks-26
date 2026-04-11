@@ -32,7 +32,7 @@ const Mentors = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/anova-mentors.csv")
+        const response = await fetch("/anova-mentors1.csv")
         const text = await response.text()
         const results = Papa.parse(text, { header: true })
 
