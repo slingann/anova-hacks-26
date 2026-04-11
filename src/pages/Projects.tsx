@@ -29,25 +29,25 @@ const Projects = () => {
       name: "Best Website",
       icon: <Globe className="w-8 h-8" />,
       description: "Create an innovative and user-friendly website",
-      prize: "$30 gift card per team member"
+      prize: "$25 gift card per team member"
     },
     {
       name: "Best Design",
       icon: <Palette className="w-8 h-8" />,
       description: "Show off your creativity and design skills",
-      prize: "$30 gift card per team member"
+      prize: "$25 gift card per team member"
     },
     {
       name: "Silliest/Funniest",
       icon: <Gamepad className="w-8 h-8" />,
       description: "Create a project that makes us laugh",
-      prize: "$30 gift card per team member"
+      prize: "$25 gift card per team member"
     },
     {
       name: "Most Informative",
       icon: <BookOpen className="w-8 h-8" />,
       description: "Design a project intended to educate or inform users",
-      prize: "$30 gift card per team member"
+      prize: "$25 gift card per team member"
     }
   ];
 
