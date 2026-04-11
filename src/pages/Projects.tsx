@@ -32,27 +32,21 @@ const Projects = () => {
       //prize: ""
     },
     {
-      name: "Best App",
+      name: "Best Design",
       icon: <BookOpen className="w-8 h-8" />,
-      description: "Develop a mobile or desktop application",
+      description: "Show off your creativity and design skills",
       //prize: "$"
     },
     {
-      name: "Best Figma",
+      name: "Silliest/Funniest",
       icon: <Palette className="w-8 h-8" />,
-      description: "Design an impressive UI/UX project",
+      description: "Create a project that makes us laugh",
       //prize: "$"
     },
     {
-      name: "Best Game",
+      name: "Most Informative",
       icon: <Gamepad className="w-8 h-8" />,
-      description: "Build an engaging and creative game",
-      //prize: "$"
-    },
-    {
-      name: "Best Arduino",
-      icon: <CircuitBoard className="w-8 h-8" />,
-      description: "Craft a smart and functional Arduino project",
+      description: "Design a project intended to educate or inform users",
       //prize: "$"
     }
   ];
@@ -77,7 +71,7 @@ const Projects = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Tracks & Challenges
+        Project Inspiration and Prize Tracks
       </motion.h1>
 
       <motion.h2
@@ -86,7 +80,7 @@ const Projects = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
       >
-        Tracks
+        Consider Building Projects Related To...
       </motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
         {tracks.map((track, index) => (
@@ -115,7 +109,7 @@ const Projects = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Challenges
+        Prize Tracks
       </motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
         {challenges.map((challenge, index) => (
