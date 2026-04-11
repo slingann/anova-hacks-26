@@ -5,7 +5,8 @@ import { motion } from "framer-motion"
 import { Search, Users, Code, Briefcase } from "lucide-react"
 
 interface Mentor {
-  fullName: string
+  firstName: string
+  lastName: string
   year: string
   major: string
   codingLanguages: string[]
@@ -37,9 +38,10 @@ const Mentors = () => {
 
         if (results.data) {
           const formattedData = results.data
-            .filter((mentor: any) => mentor["Full Name"])
+            .filter((mentor: any) => mentor["First Name"] && mentor["Last Name"])
             .map((mentor: any) => ({
-              fullName: mentor["Full Name"] || "",
+              firstName: mentor["First Name"] || "",
+              lastName: mentor["Last Name"] || "",
               year: mentor["Year"] || "",
               major: mentor["Major"] || "",
               codingLanguages: mentor["Coding Languages (What you are confident in being able to help students with!)"] ? mentor["Coding Languages (What you are confident in being able to help students with!)"].split(", ") : [],
@@ -60,7 +62,7 @@ const Mentors = () => {
   }, [])
 
   const getImageUrl = (mentor: Mentor): string => {
-    const mentorId = `${mentor.fullName}`
+    const mentorId = `${mentor.firstName} - ${mentor.lastName}`
 
     if (imageErrors[mentorId]) {
       return ""
@@ -84,7 +86,7 @@ const Mentors = () => {
 
   const filteredMentors = useMemo(() => {
     return mentorsData.filter((mentor) => {
-      const searchMatch = `${mentor.fullName} ${mentor.major}`
+      const searchMatch = `${mentor.firstName} ${mentor.lastName} ${mentor.major}`
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
       const languageMatch =
@@ -104,7 +106,7 @@ const Mentors = () => {
   }
 
   const InitialsAvatar = ({ mentor }: { mentor: Mentor }) => {
-    const initials = `${mentor.fullName.charAt(0)}`
+    const initials = `${mentor.firstName.charAt(0)} ${mentor.lastName.charAt(0)}`
     const colorClass = "bg-blue-500"
 
     return (
@@ -192,7 +194,7 @@ const Mentors = () => {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredMentors.map((mentor, index) => {
-            const mentorId = `${mentor.fullName}`
+            const mentorId = `${mentor.firstName} - ${mentor.lastName}`
             const imageUrl = getImageUrl(mentor)
 
             return (
@@ -211,7 +213,7 @@ const Mentors = () => {
                   {imageUrl && (
                     <img
                       src={imageUrl || "/placeholder.svg"}
-                      alt={`${mentor.fullName}`}
+                      alt={`${mentor.firstName} ${mentor.lastName}`}
                       className="w-full h-80 object-cover rounded-lg relative z-10"
                       onError={() => handleImageError(mentorId)}
                     />
@@ -220,7 +222,7 @@ const Mentors = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg z-20" />
                 </div>
                 <h3 className="text-xl font-semibold mb-1">
-                  {mentor.fullName}
+                  {mentor.firstName} {mentor.lastName}
                 </h3>
                 <p className="text-white-200 mb-2">
                   {mentor.year} Year • {mentor.major}
