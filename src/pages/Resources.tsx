@@ -190,6 +190,36 @@ const Resources = () => {
             <h3 className="font-semibold mb-2">Ideation Workshop</h3>
             <p className="text-sm text-gray-400">Slidedeck</p>
           </motion.a>
+
+          <motion.a
+            href="https://colab.research.google.com/drive/1fFOWpv8Hyyxxg-VyYFnwbR7BJPFbD4M4?usp=sharing"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            custom={9}
+            viewport={{ once: true }}
+          >
+            <h3 className="font-semibold mb-2">Machine Learning Workshop</h3>
+            <p className="text-sm text-gray-400">Demo</p>
+          </motion.a>
+
+          <motion.a
+            href="https://docs.google.com/presentation/d/1Q5vsAwdg2l9G4yUr4Wb5KOwlhIKa5YUCI3dK6W2EF3c/edit?usp=sharing"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            custom={9}
+            viewport={{ once: true }}
+          >
+            <h3 className="font-semibold mb-2">Design Innovation Workshop</h3>
+            <p className="text-sm text-gray-400">Slidedeck</p>
+          </motion.a>
         </div>
       </motion.div>
     </div>
