@@ -31,7 +31,7 @@ const Schedule = () => {
         { "time": "12:30 PM", "title": "URM Panel", "description": "Discussion with underrepresented minorities in tech" },
         { "time": "1:15 PM", "title": "Presentations", "description": "Showcase your projects to other hackers and mentors" },
         { "time": "2:30 PM", "title": "Closing Ceremony", "description": "Awards, wrap-up, and clean up" },
-        { "time": "3:00 PM", "title": "Farewell", "description": "See you next year!" }
+        { "time": "4:00 PM", "title": "Farewell", "description": "See you next year!" }
       ]
     }
   ]
