@@ -15,9 +15,9 @@ const Schedule = () => {
         { "time": "6:30 PM", "title": "Dinner", "description": "Pizza and salad to refuel for the night ahead" },
         { "time": "7:00 PM", "title": "Design Workshop", "description": "Learn about human-centered design with Berkeley Innovation" },
         { "time": "8:00 PM", "title": "Data Science Workshop", "description": " Learn to analyze and visualize data with Big Data at Berkeley" },
-        { "time": "9:00 PM", "title": "Python Workshop", "description": "Learn about Python with Berkeley Codebase" },
+        { "time": "9:00 PM", "title": "Machine Learning Workshop", "description": "Dive into ML concepts with Machine Learning at Berkeley" },
         { "time": "10:00 PM", "title": "Web Development Workshop", "description": "Learn to build web applications with ANova and Lovable" },
-        { "time": "11:00 PM", "title": "Machine Learning Workshop", "description": "Dive into ML concepts with Machine Learning at Berkeley" },
+        { "time": "11:00 PM", "title": "Python Workshop", "description": "Learn about Python" },
         { "time": "12:00 AM", "title": "Late Night Festivities", "description": "Unwind and have fun with snacks and games" }
       ]
     },
