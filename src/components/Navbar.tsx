@@ -33,6 +33,14 @@ const Navbar = () => {
             <Link to="/projects" className={`nav-link ${location.pathname === '/projects' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100'}`}>
               Project Info
             </Link>
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLScXFDiwvgKJo4qQur67m00m6-j0aDY3pr_bYsd6VWCD61dMQw/viewform?usp=dialog" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="nav-link text-white-100"
+            >
+              Project Submission
+            </a>
             <Link to="/resources" className={`nav-link ${location.pathname === '/resources' ? 'bg-blue-500/20 text-[#9DD4DB]' : 'text-white-100'}`}>
               Resources
             </Link>
