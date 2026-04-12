@@ -177,7 +177,7 @@ const Resources = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <motion.a
-            href="https://anova-hacks-26-i.vercel.app/resources"
+            href="https://docs.google.com/presentation/d/1wxQB4eaRKB0NuFz4MB8N6sarKyVIhRB3b6houlpoDNw/edit?usp=sharing"
             target="_blank" 
             rel="noopener noreferrer"
             className="block p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
@@ -187,8 +187,8 @@ const Resources = () => {
             custom={9}
             viewport={{ once: true }}
           >
-            <h3 className="font-semibold mb-2">As workshops are hosted throughout the event, we'll add slide deck and demo links for you to reference here!</h3>
-            <p className="text-sm text-gray-400">Check back later for hackathon-specific resources!</p>
+            <h3 className="font-semibold mb-2">Ideation Workshop</h3>
+            <p className="text-sm text-gray-400">Slidedeck</p>
           </motion.a>
         </div>
       </motion.div>
